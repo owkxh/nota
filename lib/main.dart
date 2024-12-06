@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+
+final Map<String, WidgetBuilder> routes = {
+  // SplashScreen.routeName: (context) => SplashScreen(),
+};
+
 void main() {
   runApp(const MainApp());
 }
